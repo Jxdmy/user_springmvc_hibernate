@@ -1,0 +1,11 @@
+.add_name{
+		text-align: center;
+	}
+	.name{
+		text-align: left;
+		margin-left: 20%;
+	}
+	input {
+		width: 30%;
+		height: 6%;
+	}

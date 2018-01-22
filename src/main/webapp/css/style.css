@@ -1,0 +1,198 @@
+/*
+列表
+**/
+body {
+    margin: 0;
+    /*外边距*/
+    padding: 0;
+    /*内边距*/
+}
+
+a{
+	text-decoration: none;
+}
+#top {
+    width: 100%;
+    height: 80px;
+    background-color: #0066CC;
+    color: #FFFFCC;
+    opacity:0.7;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+#top .img{
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+#top .administer{
+	line-height: 80px;
+	height: 80px;
+	float: left;
+	margin-left: 40px;
+	font-size: 24px;
+    font-family: "Arial Rounded MT Bold";
+	
+}
+#top .help{
+	line-height: 80px;
+	height: 80px;
+	float: right;
+	margin-right: 40px;
+}
+
+#menu {
+	width: 10%;
+    height:600px;
+    background-color: #CCFFFF;
+    float: left;
+     line-height: 50px;  /*固定行高*/
+     text-align: center;
+}
+#menu .avatar{
+	margin-top: 200%;
+}
+#menu .avatar p{
+	margin-top: -10px;
+}
+#content{
+	width: 89%;
+	height: 800px;
+	float: right;
+    margin-top: 2%;   
+}
+.edit{
+    margin: 20px;
+    float: left;
+}
+.search{
+    float: right;
+    margin-left: 20px;
+
+}
+.user{
+	margin: 20px;
+	text-align: center;
+}
+button{
+	width: 80px;
+}
+/*
+表单
+**/
+.container_form {
+    margin: 0 auto;
+    width: 89%;
+	height: 800px;
+
+}
+
+.container_form h1 {
+    font-size: 25px;
+    font-weight: 700;
+    height: 60px;
+    line-height: 60px;
+    background-size: 60px;
+    text-align: center;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.container_form form {
+    width: 100%;
+}
+
+.input {
+    width: 70%;
+    margin-top: 25px;
+}
+
+.input-label {
+    text-align: right;
+}
+
+.input_value {
+    width: 70%;
+    height: 30px;
+    font-size: 14px;
+}
+
+.gender {
+    width: 230px;
+    float: left;
+    text-align: right;
+    margin-left: 10px;
+}
+
+.radio-gender {
+    float: left;
+    text-align: left;
+}
+
+.radio-gender label {
+    margin-right: 20px;
+}
+.control {
+	margin-left: 20%;
+    text-align: center;
+}
+.list, .job, .hobby {
+	border:none;
+	color: blue;
+	background-color: #CCFFFF;
+	font-size: 20px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#job {
+    width:60%;
+}
+#hobby {
+    width:60%;
+}
+#select{
+    clear: both;
+}
+footer{
+    margin-top: 10px;
+    text-align: center;
+}
+#form-con{
+    width: 70%;
+    float: left;
+}
+#head{
+    width: 25%;
+    float: right;
+    margin-right:30px;
+}
+#head .image{
+    margin-top: 80px;
+    height: 200px;
+    width: 200px;
+}
+#head .upload{
+    width: 200px;
+}
+
+/*
+职业，爱好
+**/
+#content_job .job{
+	margin-top: 2%;
+    margin-left: 2%;
+    background-color: white;
+    font-size: 10px;
+}
+
+#content_hobby .hobby{
+    margin-left: 2%;
+    margin-top: 2%;
+    background-color: white;
+    font-size: 10px;
+}
